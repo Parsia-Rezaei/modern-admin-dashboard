@@ -56,4 +56,66 @@
     },
 ]
 
+export const newMembers = [
+    {
+        id:1 , 
+        userName:"Arshia norozi",
+        title:"wordpress developer",
+        img:"./public/avatar.jpg"
+    },
+    {
+        id:2, 
+        userName:"Parmida rezaei",
+        title:"microbiologist",
+        img:"./public/avatar.jpg"
+    },
+    {
+        id:3 , 
+        userName:"Reyhanne parhizkary",
+        title:"Artist",
+        img:"./public/avatar.jpg"
+    },
+    {
+        id:4 , 
+        userName:"Parsia rezaei",
+        title:"Front-end developer",
+        img:"./public/avatar.jpg"
+    },
+]
+
+export const transactions = [
+    {
+        id:1 , 
+        customer:'qadir amini',
+        date:"20 May 20230",
+        amount:200,
+        status:"pending",
+        img:'./public/avatar.jpg',
+    },
+    {
+        id:2 , 
+        customer:'amir hosseing',
+        date:"20 May 2024",
+        amount:20000,
+        status:"approved",
+        img:'./public/avatar.jpg',
+    },
+    {
+        id:3 , 
+        customer:'qadir amini',
+        date:"20 May 20230",
+        amount:200,
+        status:"pending",
+        img:'./public/avatar.jpg',
+    },
+    {
+        id:4 , 
+        customer:'amirrezae ahmadi',
+        date:"15 April 2024",
+        amount:1000,
+        status:"declined",
+        img:'./public/avatar.jpg',
+    },
+]
+
 export default xAxisData;

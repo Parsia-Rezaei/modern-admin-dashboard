@@ -1,3 +1,9 @@
 .home {
     padding: 20px;
+    flex: 4;
+}
+
+.home-widgets {
+    margin: 20px;
+    display: flex;
 }

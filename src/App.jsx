@@ -10,13 +10,9 @@ function App() {
   return (
     <>
       <Topbar />
-      <div className="container">
-        <aside className="aside">
-          <Sidebar />
-        </aside>
-        <main className="main">
-        {router}
-        </main>
+       <div className="container">
+      <Sidebar />
+      {router}
       </div>
     </>
   );
