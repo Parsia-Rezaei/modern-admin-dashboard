@@ -151,6 +151,33 @@ export let userRows = [
         status:"non-active",
         avatar:'./public/avatar.jpg',
     },
+];
+
+export let products = [
+    {
+        id:1, 
+        title:'asus',
+        price:800,
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:2, 
+        title:'hp',
+        price:1200,
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:3, 
+        title:'asus',
+        price:2000,
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:4, 
+        title:'acer',
+        price:600,
+        avatar:'./public/avatar.jpg',
+    },
 ]
 
 export default xAxisData;
