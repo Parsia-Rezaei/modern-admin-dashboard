@@ -1,0 +1,60 @@
+.widget-lg {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widget-lg-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.widget-lg-table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widget-lg-th {
+    text-align: left;
+}
+
+.widget-lg-user {
+    display: flex;
+    align-items: center;
+}
+
+.widget-lg-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.widget-lg-date,
+.widget-lg-amount {
+    font-weight: 300;
+    text-align: center;
+}
+
+.widget-lg-button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.widget-lg-button.approved {
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+
+.widget-lg-button.declined {
+    color: #d95087;
+    background-color: #fff0f1;
+}
+
+.widget-lg-button.pending {
+    color: #2a7ade;
+    background-color: #edf1fe;
+}
