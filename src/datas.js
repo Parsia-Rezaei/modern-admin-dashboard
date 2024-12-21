@@ -118,4 +118,39 @@ export const transactions = [
     },
 ]
 
+export let userRows = [
+    {
+        id:1, 
+        username:'Parsia Rezaei',
+        transaction:2500,
+        email:"example@outlook.com",
+        status:"active",
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:2, 
+        username:'mozhgan mohammadi',
+        transaction:1000,
+        email:"example@outlook.com",
+        status:"non-active",
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:3, 
+        username:'amirrezae ahmadi',
+        transaction:2000,
+        email:"example@outlook.com",
+        status:"active",
+        avatar:'./public/avatar.jpg',
+    },
+    {
+        id:4, 
+        username:'amirrezae ahmadi',
+        transaction:100,
+        email:"example@outlook.com",
+        status:"non-active",
+        avatar:'./public/avatar.jpg',
+    },
+]
+
 export default xAxisData;
