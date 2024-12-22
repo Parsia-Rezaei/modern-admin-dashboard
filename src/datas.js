@@ -180,4 +180,24 @@ export let products = [
     },
 ]
 
+
+export const productsDatas = [
+    {
+        name:'Jan',
+        sale:4000,
+    },
+    {
+        name:'Feb',
+        sale:5000,
+    },
+    {
+        name:'May',
+        sale:2000,
+    },
+    {
+        name:'Apr',
+        sale:10000,
+    },
+]
+
 export default xAxisData;
